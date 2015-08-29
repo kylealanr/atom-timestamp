@@ -1,0 +1,26 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Insert ISO 8601 local time'
+      'command': 'iso8601-timestamp:local'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'ISO 8601 timestamp'
+      'submenu': [
+        {
+          'label': 'Insert UTC time'
+          'command': 'iso8601-timestamp:utc'
+        },
+        {
+          'label': 'Insert local time'
+          'command': 'iso8601-timestamp:local'
+        }
+      ]
+    ]
+  }
+]

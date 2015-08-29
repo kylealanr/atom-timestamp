@@ -1,0 +1,20 @@
+{
+  "name": "iso8601-timestamp",
+  "main": "./lib/iso8601-timestamp",
+  "version": "0.1.0",
+  "description": "Atom package to insert ISO 8601 compliant timestamps",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": ["iso8601-timestamp:utc", "iso8601-timestamp:local"]
+  },
+  "repository": "https://github.com/hollandjg/iso8601-timestamp",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "moment": "2.10.6",
+    "moment-timezone": "0.4.0"
+  }
+}
