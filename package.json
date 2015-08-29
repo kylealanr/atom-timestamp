@@ -1,7 +1,7 @@
 {
   "name": "iso8601-timestamp",
   "main": "./lib/iso8601-timestamp",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Atom package to insert ISO 8601 compliant timestamps",
   "keywords": [
   ],
